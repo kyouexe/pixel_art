@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Art Maker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Pixel Art Maker</h1>
+
+    <div class="controls">
+      <label for="colorPicker">🎨 Color:</label>
+      <input type="color" id="colorPicker" value="#ff0000">
+
+      <label for="gridSize">🔲 Size:</label>
+      <input type="number" id="gridSize" min="5" max="30" value="16">
+      <button onclick="makeGrid()">Generate Grid</button>
+    </div>
+
+    <div id="pixelCanvas"></div>
+
+    <button class="clear-btn" onclick="clearGrid()">Clear</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
