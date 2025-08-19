@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+#pixelCanvas {
+  display: grid;
+  margin: 0 auto;
+  border: 2px solid #333;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.clear-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #ff6f61;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background: #ff3b2e;
+}
