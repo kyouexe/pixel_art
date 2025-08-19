@@ -14,5 +14,4 @@ Create pixel art by selecting a color and clicking on the grid cells. You can ch
 - **HTML5**  
 - **CSS3**  
 - **JavaScript (Vanilla)**  
-   ```bash
-   git clone https://github.com/your-username/pixel-art-maker.git
+
